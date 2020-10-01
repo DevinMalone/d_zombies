@@ -1,11 +1,11 @@
 Config = {}
 
-Config.SpawnZombie = 10
+Config.SpawnZombie = 500
 Config.MinSpawnDistance = 80
 Config.MaxSpawnDistance = 100
 Config.DespawnDistance = 120
 
-Config.ZombieDropLoot = true
+Config.ZombieDropLoot = false
 Config.ProbabilityWeaponLoot = 3 -- 3%
 Config.ProbabilityMoneyLoot = 33 -- 3-33 = 30%
 Config.ProbabilityItemLoot = 53 -- 53-43-3 = 7%
@@ -26,7 +26,7 @@ Config.ItemLoot = {
 
 
 
-Config.ObjectDropLoot = true --false if you experience low performance of server
+Config.ObjectDropLoot = false --false if you experience low performance of server
 Config.ObjectsLoot = {
     'prop_box_ammo03a'
 }
