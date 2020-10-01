@@ -375,7 +375,7 @@ AddEventHandler("ZombieSync", function()
 			end
 			--TaskGoToEntity(entity, GetPlayerPed(-1), -1, 0.0, 1.0, 1073741824, 0)
 			--SetPedMovementClipset(entity, walk, 1.0)
-			SetPedMovementClipset(entity, FEMALE_FAST_RUNNER, 1.0)
+			SetPedMovementClipset(entity, walk, 1.0)
 			TaskWanderStandard(entity, 1.0, 10)
 			SetCanAttackFriendly(entity, true, true)
 			SetPedCanEvasiveDive(entity, false)
