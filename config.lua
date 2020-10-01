@@ -2,8 +2,8 @@ Config = {}
 
 Config.SpawnZombie = 500
 Config.MinSpawnDistance = 80
-Config.MaxSpawnDistance = 100
-Config.DespawnDistance = 120
+Config.MaxSpawnDistance = 250
+Config.DespawnDistance = 450
 
 Config.ZombieDropLoot = false
 Config.ProbabilityWeaponLoot = 3 -- 3%
